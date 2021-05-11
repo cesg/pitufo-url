@@ -9,7 +9,7 @@ A simple url shortener with Fastify and Redis
 git clone git@github.com:cesg/pitufo-url.git
 ```
 
-## Dependecies
+## Dependencies
 ```sh
 npm i
 ```
@@ -25,7 +25,7 @@ npm run start
 ```
 
 # Usage
-| URL           | Method | Params  | Response |   |
+| URL           | Method | Body  | Response |   |
 |---------------|--------|---------|----------|---|
 | /             | POST   | { url } | { url }  |   |
 | /:id          | GET    |         | { url }  |   |
